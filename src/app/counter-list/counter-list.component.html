@@ -1,0 +1,12 @@
+<h2>Counter List</h2>
+<ul>
+    <li *ngFor="let counter of counters"><div id="post">Bill Name: {{counter.name}}<br>
+                                        Amount Due: {{counter.amountdue}}<br>
+                                        Monthly Due Date: {{counter.datedue}} <br>
+                                        <button (click)="deleteCounter(counter.id)">Delete</button><br>
+                                        <a [routerLink]="['/edit', counter.id]"><button>Edit</button></a>
+                                    </div></li>
+  
+</ul>
+
+

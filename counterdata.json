@@ -1,0 +1,16 @@
+{
+  "counters": [
+    {
+      "id": 0,
+      "name": "Car ",
+      "amountdue": 1200,
+      "datedue": "Every 29th of the month"
+    },
+    {
+      "id": 1,
+      "name": "House Mortgage",
+      "amountdue": 150000,
+      "datedue": "1st of every month"
+    }
+  ]
+}
