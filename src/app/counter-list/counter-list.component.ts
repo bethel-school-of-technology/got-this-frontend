@@ -22,6 +22,8 @@ export class CounterListComponent implements OnInit {
     
   constructor(private countDataService : CountDataService) { }
 
+
+  
   ngOnInit() {
     this.getCounters();
   }
