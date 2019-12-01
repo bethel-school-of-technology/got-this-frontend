@@ -7,7 +7,7 @@ import { CalendarComponent } from './calendar/calendar.component';
 import {AboutComponent} from './about/about.component';
 
 const routes: Routes = [
-  {path: "", redirectTo: "About", pathMatch:"full"},
+  {path: "", redirectTo: "about", pathMatch:"full"},
   
     {path:"list", component: CounterListComponent},
      {path:"add", component:CounterAddComponent},
