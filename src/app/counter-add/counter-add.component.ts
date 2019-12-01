@@ -16,7 +16,9 @@ export class CounterAddComponent implements OnInit {
     this.counterDataService.addCounter(this.newCounter).subscribe(c=>(this.router.navigate(["list"])))
   }
 
-  constructor(private counterDataService: CountDataService, private router : Router) { }
+  constructor(private counterDataService: CountDataService, private router : Router) {
+    
+   }
 
   ngOnInit() {
   }

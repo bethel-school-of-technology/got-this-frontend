@@ -9,17 +9,15 @@ import {AboutComponent} from './about/about.component';
 const routes: Routes = [
   {path: "", redirectTo: "About", pathMatch:"full"},
   
-    {path:"list", 
-    component: CounterListComponent, 
-    children:
-        [
-          {path:"add", component:CounterAddComponent, pathMatch:"full"},
-          
-        ]},
+    {path:"list", component: CounterListComponent},
+     {path:"add", component:CounterAddComponent},
   {path: "calendar", component: CalendarComponent},
   {path: "about", component: AboutComponent},
-    {path: "edit/:id", component: CounterEditComponent}
-];
+    {path: "edit/:id", component: CounterEditComponent},
+   
+]
+
+;
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

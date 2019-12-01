@@ -8,8 +8,9 @@ import { Counter} from "./counter";
   providedIn: 'root'
 })
 export class CountDataService {
-
+ 
   url:string = "http://localhost:3000/counters";
+  
 
   getCounters(): Observable<Counter[]>{
     return this.http.get<Counter[]>(this.url);
@@ -29,5 +30,5 @@ export class CountDataService {
   editCounter(counter: Counter): Observable<Counter>{
     return this.http.put<Counter>(this.url + "/" + counter.id, counter);
   }
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {  }
 }

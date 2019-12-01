@@ -13,8 +13,10 @@ import { NavComponent } from './nav/nav.component';
 import { CounterEditComponent } from './counter-edit/counter-edit.component';
 import { CalendarComponent } from './calendar/calendar.component';
 
-
+import {CountDataService} from './count-data.service';
 import { AboutComponent } from './about/about.component';
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,7 @@ import { AboutComponent } from './about/about.component';
     HttpClientModule,
     FormsModule
   ],
-  providers: [],
+  providers: [CountDataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
