@@ -1,0 +1,41 @@
+
+.intro {
+    flex-direction: column;
+    position:center ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: center;
+    background-color: white;
+    padding: 3px;
+    margin: 0px;
+
+}
+
+.listie {
+    background-color: rgb(24, 161, 161);
+}
+   
+h1 {
+    background-color: #333;
+    color: white;
+    margin: 0px;
+    padding: 2px;
+}
+ul {
+    text-decoration: none;
+    margin: 0px;
+    padding: 2px;
+}
+a {
+    text-emphasis: none;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+a:hover {
+    color:white;
+    background-color: #333;
+}
+a.active {
+    background-color: gray;
+    color: white;
+}

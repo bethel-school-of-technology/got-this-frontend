@@ -1,10 +1,58 @@
 #post {
-    border: 2px solid black;
+    
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    float: center;
+    margin: 2px;
+    font-size: 1.5em;
 
 }
 li {
+    background-color: rgb(24, 161, 161);
     list-style-type: none;
 }
-#counter {
-    background-color:#629FF3;
+
+#counterpage {
+    flex-direction: column;
+    position:center ;
+    
+}
+h2 {
+    background-color: #333;
+    color: white;
+    margin: 0px;
+    padding: 2px;
+}
+button {
+    background-color: #333; 
+    border: none;
+    color: white;
+    padding: 1px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+ 
+  
+    
+  }
+  button:hover{
+    color:black;
+    background-color: white;
+    
+  }
+  a {
+    text-emphasis: none;
+    text-decoration: none; 
+   
+  }
+  .newthing {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+    text-decoration: none;
+    color:white;
+    background-color: #333;
+    
+  }
+.newthing:hover{
+    background-color: white;
+    color: black;
 }

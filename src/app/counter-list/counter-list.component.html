@@ -1,13 +1,16 @@
-<h2>Counter List</h2>
-<ul id="counter">
-        <a routerLink="/add">Add a New Bill Tracker!</a>
+
+<h2>Your List of Trackers:</h2>
+<div id="counterpage">
+
+<ul id="counter" class="col-2-3">
+        <a class="newthing" routerLink="/add">Add a New Bill Tracker!</a>
     <li *ngFor="let counter of counters"><div id="post">Bill Name: {{counter.name}}<br>
                                         Amount Due: {{counter.amountdue}}<br>
                                         Monthly Due Date: {{counter.datedue}} <br>
-                                        <button (click)="deleteCounter(counter.id)">Delete</button><br>
-                                        <a [routerLink]="['/edit', counter.id]"><button>Edit</button></a>
+                                        <button (click)="deleteCounter(counter.id)"><h2>Delete</h2></button>
+                                       <button><a [routerLink]="['/edit', counter.id]"><h2>Edit</h2></a></button> 
                                     </div></li>
   
 </ul>
-
+</div>
 
