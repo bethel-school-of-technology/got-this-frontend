@@ -4,9 +4,10 @@
     position:center ;
     font-family: Georgia, 'Times New Roman', Times, serif;
     float: center;
-    background-color: white;
+    background-color: rgb(4, 94, 94);
     padding: 3px;
     margin: 0px;
+    font-size: 1.2em;
 
 }
 

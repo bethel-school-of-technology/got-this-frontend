@@ -27,3 +27,15 @@
     background-color: #4CAF50;
     color: white;
   }
+  h1 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    font-size: 2em;
+  }
+  h2{
+    color: white;
+    text-align: center;
+    font-family:  Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.4em;
+  }
