@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { CountDataService} from '../count-data.service';
+import { CountDataService} from '../services/count-data.service';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-about',
